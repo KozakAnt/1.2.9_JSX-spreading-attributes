@@ -1,8 +1,9 @@
+import './Form.css';
 import { Input } from './Input';
 
 export const Form = () => {
   return (
-    <form style={{ display: 'flex', flexDirection: 'column', gap: '16px' }} onSubmit={(e) => e.preventDefault()}>
+      <form className="form-container" onSubmit={(e) => e.preventDefault()}>
       <Input
         labelText="Имя пользователя"
         id="user_name"
@@ -28,7 +29,7 @@ export const Form = () => {
       />
       
 
-      <button type="submit" style={{ marginTop: '8px', padding: '10px', cursor: 'pointer' }}>
+      <button type="submit" className="form-submit-btn">
         Отправить
       </button>
     </form>

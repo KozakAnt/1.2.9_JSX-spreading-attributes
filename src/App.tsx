@@ -3,7 +3,7 @@ import { Form } from './components/Form';
 
 const App = () => {
   return (
-    <div style={{ padding: '40px', maxWidth: '400px' }}>
+    <div className="app-container">
       <Form />
     </div>
   );

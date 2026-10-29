@@ -1,0 +1,11 @@
+.form-container {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.form-submit-btn {
+   margin-top: 8px;
+   padding: 10px;
+   cursor: pointer;
+}
